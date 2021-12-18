@@ -1,6 +1,6 @@
 # Hi!
 ## My name is Victoria Belova.
-! [img1.jpg]
+![My photo](img1.jpg)
 ### My contacts:
 * Adress: Republic of Belarus, Gomel
 * Telephone: +375447774253
