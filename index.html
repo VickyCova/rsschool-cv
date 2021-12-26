@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#info">Info about me</a></li>
+            <li><a href="#skills">Skills and interests</a></li>
+            <li><a href="#my-portfolio">My portfolio</a></li>
+            <li><a href="#my-code">Example code</a></li>           
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <h1>Hi!</h1>
+      <h2>My name is Victoria Belova.</h2>
+      <div class="wrapper">
+        <div id="contacts" class="contacts">
+          <h3>My contacts:</h3>
+          <ul>
+            <li>Adress: Republic of Belarus, Gomel</li>
+            <li>Telephone: +375447774352</li>
+            <li>e-mail: vacova@mail.ru</li>
+            <li><a href="//github.com/VickyCova">github.com/VickyCova</a></li>
+          </ul>
+        </div>
+        <div id="info" class="info">
+          <h4>My education</h4>
+          <p>
+            In 2004-2009 I studied at the Francisk Skorina Gomel State
+            University with a degree in economics in the foreign market.
+          </p>
+
+          <h4>About me</h4>
+          <p>
+            I am sociable, friendly, purposeful, responsible, punctual person. I
+            have a lot of experience working in a team. And I can highlight my
+            following strengths: communication skills, self-organization,
+            punctuality, ability to work in a team.
+          </p>
+          <p>
+            In 2009-2021 I worked in the field of taxation, accounting and
+            consulting. For twelve years I have worked, studied, improved in a
+            fairly strict field of activity, now I would like to master a
+            profession that is new to me, more creative and interesting. I think
+            this is the main goal that directed me to attend this school.
+          </p>
+        </div>
+        <div class="myphoto">
+          <img src="img1.jpg" alt="Victoria Belova" />
+        </div>
+      </div>
+      <div id="skills" class="interests">
+        <h3>My skills and interests</h3>
+        <p>
+          I learned the basics HTML and CSS. Now I want to improve my knowledge
+          and learn JavaScript.
+        </p>
+        <p>
+          I am a supporter of a healthy lifestyle, and my hobbies include:
+          playing sports, reading, expanding my horizons and learning new
+          things.
+        </p>
+      </div>
+
+      <div id="my-portfolio" class="interests">
+        <h3>My portfolio</h3>
+        <p>
+          <a href="https://vickycova.github.io/rsschool-cv/museum/">1. Museum </a><br>
+          <a href="https://vickycova.github.io/rsschool-cv/portfolio/">2. Portfolio </a>
+        </p>
+        
+      </div>
+
+
+      <div id="my-code" class="example-code">
+        <h3>Example of code</h3>
+        <div class="code-simple">
+          <code>
+            function DNAtoRNA(dna) {<br />
+            const arr = dna.split("");<br />
+            let replaced = arr.map((el) => (el == "T") ? "U" : el );<br />
+            return replaced.join("");<br />
+            }
+          </code>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <span class="copyright">&copy; <b>2022</b></span>
+        <a class="rolling-name" href="https://rs.school/"
+          ><img src="rs-logo.svg" alt="RS Logo"></a
+        >
+        <a class="git-name" href="https://github.com/VickyCova"><img src="git-logo.svg" alt="Github logo"></a>
+      </div>
+    </footer>
+  </body>
+</html>
