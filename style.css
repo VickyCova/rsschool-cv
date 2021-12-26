@@ -8,6 +8,33 @@ body {
   background-color: rgb(247, 222, 222);
 }
 
+header {
+  height: 70px;
+  background: rgb(223, 207, 207);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid rgb(87, 48, 61);
+  -webkit-box-shadow: 0px 5px 22px 9px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 22px 9px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 22px 9px rgba(34, 60, 80, 0.2);
+}
+
+header ul {
+  display: flex;
+}
+
+header a {
+  color: rgb(87, 48, 61);
+  font-size: 20px;
+  font-family: cursive;
+}
+
+header li {
+  list-style-type: none;
+  margin: 20px;
+}
+
 h1,
 h2 {
   text-align: center;
@@ -96,37 +123,66 @@ img {
 }
 
 .footer-wrapper {
+  background: rgb(223, 207, 207);
   display: flex;
+  align-items: center;
+  margin-top: 5%;
   justify-content: space-between;
   height: 100px;
+  border-top: 2px solid rgb(87, 48, 61);
+  -webkit-box-shadow: 0px -10px 22px 9px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px -10px 22px 9px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px -10px 22px 9px rgba(34, 60, 80, 0.2);
 }
 
 .copyright {
   font-size: 23px;
-  font-family: cursive;  
+  font-family: cursive;
   color: rgb(87, 48, 61);
   margin-left: 4%;
 }
 
 .rolling-name h3 {
   font-size: 23px;
-  font-family: cursive;  
+  font-family: cursive;
   color: rgb(87, 48, 61);
-  }
+}
 
 .rolling-name a {
   color: rgb(87, 48, 61);
   font-size: 23px;
-  font-family: cursive;  
-  }
+  font-family: cursive;
+}
 
 .git-name {
   margin-right: 6%;
   color: rgb(87, 48, 61);
   font-size: 23px;
   font-family: cursive;
-  }
+}
 
 a {
   text-decoration: none;
+}
+
+.example-code h3 {
+  font-size: 23px;
+  font-family: cursive;
+  color: rgb(87, 48, 61);
+  margin-bottom: 1.2%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.example-code {
+  align-items: center;
+  font-size: 20px;
+  width: 30%;
+  margin: 2% auto;
+}
+
+.code-simple {
+  border: 2px solid rgb(87, 48, 61);
+  border-radius: 5px;
+  padding: 1%;
 }

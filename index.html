@@ -7,64 +7,92 @@
     <title>CV</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1>Hi!</h1>
-    <h2>My name is Victoria Belova.</h2>
-    <div class="wrapper">
-      <div class="contacts">
-        <h3>My contacts:</h3>
-        <ul>
-          <li>Adress: Republic of Belarus, Gomel</li>
-          <li>Telephone: +375447774253</li>
-          <li>e-mail: vacova@mail.ru</li>
-          <li><a href="//github.com/VickyCova">github.com/VickyCova</a></li>
-        </ul>
-      </div>
-      <div class="info">
-        <h4>My education</h4>
-        <p>
-          In 2004-2009 I studied at the Francisk Skorina Gomel State University
-          with a degree in economics in the foreign market.
-        </p>
 
-        <h4>About me</h4>
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#info">Info about me</a></li>
+            <li><a href="#skills">Skills and interests</a></li>
+            <li><a href="#my-code">Example code</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <h1>Hi!</h1>
+      <h2>My name is Victoria Belova.</h2>
+      <div class="wrapper">
+        <div id="contacts" class="contacts">
+          <h3>My contacts:</h3>
+          <ul>
+            <li>Adress: Republic of Belarus, Gomel</li>
+            <li>Telephone: +375447774253</li>
+            <li>e-mail: vacova@mail.ru</li>
+            <li><a href="//github.com/VickyCova">github.com/VickyCova</a></li>
+          </ul>
+        </div>
+        <div id="info" class="info">
+          <h4>My education</h4>
+          <p>
+            In 2004-2009 I studied at the Francisk Skorina Gomel State
+            University with a degree in economics in the foreign market.
+          </p>
+
+          <h4>About me</h4>
+          <p>
+            I am sociable, friendly, purposeful, responsible, punctual person. I
+            have a lot of experience working in a team. And I can highlight my
+            following strengths: communication skills, self-organization,
+            punctuality, ability to work in a team.
+          </p>
+          <p>
+            In 2009-2021 I worked in the field of taxation, accounting and
+            consulting. For twelve years I have worked, studied, improved in a
+            fairly strict field of activity, now I would like to master a
+            profession that is new to me, more creative and interesting. I think
+            this is the main goal that directed me to attend this school.
+          </p>
+        </div>
+        <div class="myphoto">
+          <img src="img1.jpg" alt="Victoria Belova" />
+        </div>
+      </div>
+      <div id="skills" class="interests">
+        <h3>My skills and interests</h3>
         <p>
-          I am sociable, friendly, purposeful, responsible, punctual person. I
-          have a lot of experience working in a team. And I can highlight my
-          following strengths: communication skills, self-organization,
-          punctuality, ability to work in a team.
+          I learned the basics HTML and CSS. Now I want to improve my knowledge
+          and learn JavaScript.
         </p>
         <p>
-          In 2009-2021 I worked in the field of taxation, accounting and
-          consulting. For twelve years I have worked, studied, improved in a
-          fairly strict field of activity, now I would like to master a
-          profession that is new to me, more creative and interesting. I think
-          this is the main goal that directed me to attend this school.
+          I am a supporter of a healthy lifestyle, and my hobbies include:
+          playing sports, reading, expanding my horizons and learning new
+          things.
         </p>
       </div>
-      <div class="myphoto">
-        <img src="img1.jpg" alt="Victoria Belova" />
+      <div id="my-code" class="example-code">
+        <h3>Example of code</h3>
+        <div class="code-simple">
+          <code>
+            function DNAtoRNA(dna) {<br />
+            const arr = dna.split("");<br />
+            let replaced = arr.map((el) => (el == "T") ? "U" : el );<br />
+            return replaced.join("");<br />
+            }
+          </code>
+        </div>
       </div>
-    </div>
-    <div class="interests">
-      <h3>My skills and interests</h3>
-      <p>
-        I learned the basics HTML and CSS. Now I want to improve my knowledge
-        and learn JavaScript.
-      </p>
-      <p>
-        I am a supporter of a healthy lifestyle, and my hobbies include: playing
-        sports, reading, expanding my horizons and learning new things.
-      </p>
-    </div>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <span class="copyright">&copy; 2022</span>
+        <a class="rolling-name" href="https://rs.school/"
+          ><h3>The Rolling Scopes School</h3></a
+        >
+        <a class="git-name" href="https://github.com/VickyCova">VickyCova</a>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div class="footer-wrapper">
-      <span class="copyright">&copy; 2022</span>
-      <a class="rolling-name" href="https://rs.school/"
-        ><h3>The Rolling Scopes School</h3></a
-      >
-      <a class="git-name" href="https://github.com/VickyCova">VickyCova</a>
-    </div>
-  </footer>
 </html>
